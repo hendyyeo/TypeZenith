@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Jce-V0-vdg">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="y73-9y-fgx">
+            <objects>
+                <viewController id="Jce-V0-vdg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cQV-Mw-7HC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Hhs-gt-RkS">
+                                <rect key="frame" x="0.0" y="-50" width="393" height="952"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="fik-77-i5n">
+                                <rect key="frame" x="0.0" y="832" width="393" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyrights All Rights Reserved 2024 TypeZenith" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXt-sC-G7C">
+                                <rect key="frame" x="79" y="736" width="235" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TypeZenith is a trademark of HRexcorp Ltd ®" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLl-E2-Z76">
+                                <rect key="frame" x="88" y="769" width="217" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type Zenith" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="DPx-FV-Jdx">
+                                <rect key="frame" x="0.0" y="280" width="393" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="d9A-pA-NmP">
+                                <rect key="frame" x="134" y="197" width="125" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="DR0-oh-YHg"/>
+                                    <constraint firstAttribute="width" secondItem="d9A-pA-NmP" secondAttribute="height" multiplier="5:3" id="QJo-9s-39k"/>
+                                    <constraint firstAttribute="width" constant="125" id="zhV-LX-AFe"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Gsn-3s-tSB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="d9A-pA-NmP" firstAttribute="centerX" secondItem="cQV-Mw-7HC" secondAttribute="centerX" id="0f0-Ih-Ga0"/>
+                            <constraint firstItem="DPx-FV-Jdx" firstAttribute="top" secondItem="d9A-pA-NmP" secondAttribute="bottom" constant="8" id="3d3-6S-bpl"/>
+                            <constraint firstItem="ZLl-E2-Z76" firstAttribute="top" secondItem="yXt-sC-G7C" secondAttribute="bottom" constant="21" id="6oF-4F-2lA"/>
+                            <constraint firstItem="Gsn-3s-tSB" firstAttribute="centerX" secondItem="DPx-FV-Jdx" secondAttribute="centerX" id="84I-H7-Skf"/>
+                            <constraint firstItem="DPx-FV-Jdx" firstAttribute="top" secondItem="d9A-pA-NmP" secondAttribute="bottom" constant="8" id="BO2-Kn-urW"/>
+                            <constraint firstItem="Gsn-3s-tSB" firstAttribute="bottom" secondItem="ZLl-E2-Z76" secondAttribute="bottom" constant="37" id="C7P-Zu-JaM"/>
+                            <constraint firstAttribute="trailing" secondItem="Hhs-gt-RkS" secondAttribute="trailing" id="GH8-gc-ayO"/>
+                            <constraint firstItem="ZLl-E2-Z76" firstAttribute="centerX" secondItem="cQV-Mw-7HC" secondAttribute="centerX" id="IeV-Wr-5La"/>
+                            <constraint firstItem="DPx-FV-Jdx" firstAttribute="leading" secondItem="Gsn-3s-tSB" secondAttribute="leading" symbolic="YES" id="LCg-HD-Ret"/>
+                            <constraint firstAttribute="bottom" secondItem="Hhs-gt-RkS" secondAttribute="bottom" constant="-50" id="Lhq-mk-0CV"/>
+                            <constraint firstItem="Hhs-gt-RkS" firstAttribute="centerX" secondItem="cQV-Mw-7HC" secondAttribute="centerX" id="Yqi-BF-nqV"/>
+                            <constraint firstItem="DPx-FV-Jdx" firstAttribute="centerY" secondItem="cQV-Mw-7HC" secondAttribute="bottom" multiplier="1/3" constant="17" id="Zaq-y8-Gpg"/>
+                            <constraint firstItem="Hhs-gt-RkS" firstAttribute="centerY" secondItem="cQV-Mw-7HC" secondAttribute="centerY" id="cPq-qk-Dt1"/>
+                            <constraint firstItem="Hhs-gt-RkS" firstAttribute="top" secondItem="cQV-Mw-7HC" secondAttribute="top" constant="-50" id="ipc-y5-Bo1"/>
+                            <constraint firstItem="d9A-pA-NmP" firstAttribute="centerX" secondItem="cQV-Mw-7HC" secondAttribute="centerX" id="lzN-xZ-y8f"/>
+                            <constraint firstItem="yXt-sC-G7C" firstAttribute="centerX" secondItem="cQV-Mw-7HC" secondAttribute="centerX" id="oCo-rI-oYY"/>
+                            <constraint firstItem="Gsn-3s-tSB" firstAttribute="centerX" secondItem="fik-77-i5n" secondAttribute="centerX" id="sXO-c1-xvH"/>
+                            <constraint firstItem="fik-77-i5n" firstAttribute="leading" secondItem="Gsn-3s-tSB" secondAttribute="leading" symbolic="YES" id="ukZ-x0-1sp"/>
+                            <constraint firstItem="Hhs-gt-RkS" firstAttribute="leading" secondItem="cQV-Mw-7HC" secondAttribute="leading" id="wW5-JS-bEs"/>
+                            <constraint firstAttribute="bottom" secondItem="fik-77-i5n" secondAttribute="bottom" constant="20" id="ww5-v7-fdH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x4a-N2-6Ke" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244" y="368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AppBackground" width="2052" height="2052"/>
+        <image name="AppLogo" width="584" height="1380"/>
+    </resources>
+</document>

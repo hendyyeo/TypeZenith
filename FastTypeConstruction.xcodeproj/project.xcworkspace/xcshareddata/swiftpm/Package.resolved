@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "lookingglassui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ryanlintott/LookingGlassUI",
+      "state" : {
+        "revision" : "3257e1b5392a8b39e4620e09cfdb672d2be42855",
+        "version" : "0.3.1"
+      }
+    },
+    {
+      "identity" : "shiny",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maustinstar/shiny",
+      "state" : {
+        "branch" : "master",
+        "revision" : "862360b8ab6b9ea9eb1156569a30f154b22625a5"
+      }
+    }
+  ],
+  "version" : 2
+}
