@@ -1481,7 +1481,7 @@ struct AchievementSheetView: View {
             // If no achievements are found, initialize with predefined achievements
             self.achievements = [
                 Achievement(title: "The Great First Step", unlocked: false, imageName: "figure.stair.stepper", description: "reach Combo x3 till end game"),
-                Achievement(title: "Typing Machine", unlocked: false, imageName: "figure.run", description: "reach Combo x7 till end game"),
+                Achievement(title: "Typing Machine", unlocked: false, imageName: "bag.circle", description: "reach Combo x7 till end game"),
                 Achievement(title: "Legendary", unlocked: false, imageName: "bolt.fill", description: "reach Combo x10 till end game"),
                 Achievement(title: "God hand", unlocked: false, imageName: "hand.raised.brakesignal", description: "reach Combo x15 till end game"),
                 Achievement(title: "Zenith Warrior", unlocked: false, imageName: "shield.checkered", description: "reach more than 150 total score"),
